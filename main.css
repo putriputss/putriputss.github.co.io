@@ -1,0 +1,112 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   outline: none;
+}
+body{
+    width: 100%;
+    background-color: #f0f2f5;
+}
+form{
+    background-color: #fff;
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 516px;
+    border-radius: 5px;
+    box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1), inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    margin-top:20px;
+}
+
+.tulisan{
+display:block;
+margin: auto ;
+border: 1.5px ;
+width: 150px;
+padding: 10px 40px;
+text-align: center;
+font-family: 'Segoe UI';
+font-size:  15px;
+color: black;
+}
+input[type='text'], input[type='password']{
+    display: block ;
+    background-color: #fff;
+    margin: auto ;
+    border: 1.3px solid;
+    border-color: rgb(165, 162, 162);
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-align:center;
+    font-family: 'Segoe UI';
+    font-size:  15px;
+}
+
+input[type='text']:hover, input[type='password']:hover{
+    background-color:rgb(238, 235, 235);
+}
+
+button{
+    border: none;
+    background-color: #1877f2;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.f-pws{
+    display: block;
+    color: #1877f2;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    border: 1.5px ;
+    padding: 0,1px 40px;
+}
+
+.line{
+    border-top: 1px solid #222;
+    opacity: 0.2;
+}
+
+.bnt2{
+    width: 130px;
+    font-size: 14px;
+    background-color: #42b72a;
+    text-align: center;
+}
+
+.sub-link h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    font-family: 'Segoe UI',Arial;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+    
+
+
